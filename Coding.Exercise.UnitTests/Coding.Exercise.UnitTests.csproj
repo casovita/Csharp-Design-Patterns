@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bulder.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
   </ItemGroup>
@@ -59,6 +60,10 @@
     <ProjectReference Include="..\Builder.Coding.Exercise\Builder.Coding.Exercise.csproj">
       <Project>{504cce77-0c63-4dba-8cbb-d7f450244e2e}</Project>
       <Name>Builder.Coding.Exercise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Observer.Coding.Exercise\Observer.Coding.Exercise.csproj">
+      <Project>{c887ce0c-24ff-4076-a2f6-dcc35131d387}</Project>
+      <Name>Observer.Coding.Exercise</Name>
     </ProjectReference>
     <ProjectReference Include="..\Prototype.Coding.Execise\Prototype.Coding.Execise.csproj">
       <Project>{01e0a68b-f100-4212-838c-3eee039dab21}</Project>

@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WeakEventPattern",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Rx", "Observer.Rx\Observer.Rx.csproj", "{DB8E7E39-E2D6-4B6D-A3E8-5935CBE818A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Coding.Exercise", "Observer.Coding.Exercise\Observer.Coding.Exercise.csproj", "{C887CE0C-24FF-4076-A2F6-DCC35131D387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{DB8E7E39-E2D6-4B6D-A3E8-5935CBE818A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8E7E39-E2D6-4B6D-A3E8-5935CBE818A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8E7E39-E2D6-4B6D-A3E8-5935CBE818A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C887CE0C-24FF-4076-A2F6-DCC35131D387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C887CE0C-24FF-4076-A2F6-DCC35131D387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C887CE0C-24FF-4076-A2F6-DCC35131D387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C887CE0C-24FF-4076-A2F6-DCC35131D387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{F2E236E6-FA9D-4AE0-B6FE-5838963A3932} = {10F4B79A-1758-4062-A5A4-B52356BF65E5}
 		{A30FBE3B-7C6F-4922-9335-E7B91B8983EC} = {10F4B79A-1758-4062-A5A4-B52356BF65E5}
 		{DB8E7E39-E2D6-4B6D-A3E8-5935CBE818A5} = {10F4B79A-1758-4062-A5A4-B52356BF65E5}
+		{C887CE0C-24FF-4076-A2F6-DCC35131D387} = {10F4B79A-1758-4062-A5A4-B52356BF65E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBA529D4-85C4-4E60-9C60-4977E27702EA}
