@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{9AC4F85F-39C6-488D-B235-CA6B952754DE}</ProjectGuid>
+        <ProjectGuid>{29593533-482D-411F-A0A9-2F8799C6FB40}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Adapter.NoCaching</RootNamespace>
-        <AssemblyName>Adapter.NoCaching</AssemblyName>
+        <RootNamespace>Adapter.Coding.Execise</RootNamespace>
+        <AssemblyName>Adapter.Coding.Execise</AssemblyName>
         <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>

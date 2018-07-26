@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Adapter.NoCaching")]
+[assembly: AssemblyTitle("Adapter.Coding.Execise")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Adapter.NoCaching")]
+[assembly: AssemblyProduct("Adapter.Coding.Execise")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9AC4F85F-39C6-488D-B235-CA6B952754DE")]
+[assembly: Guid("29593533-482D-411F-A0A9-2F8799C6FB40")]
 
 // Version information for an assembly consists of the following four values:
 //

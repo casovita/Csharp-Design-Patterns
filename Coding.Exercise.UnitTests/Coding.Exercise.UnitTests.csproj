@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter.cs" />
     <Compile Include="Bulder.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Adapter.Coding.Execise\Adapter.Coding.Execise.csproj">
+      <Project>{29593533-482d-411f-a0a9-2f8799c6fb40}</Project>
+      <Name>Adapter.Coding.Execise</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Builder.Coding.Exercise\Builder.Coding.Exercise.csproj">
       <Project>{504cce77-0c63-4dba-8cbb-d7f450244e2e}</Project>
       <Name>Builder.Coding.Exercise</Name>
