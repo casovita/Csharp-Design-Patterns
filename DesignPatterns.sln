@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Coding.Exercise", "Bridge.Coding.Exercise\Bridge.Coding.Exercise.csproj", "{B2195113-4CB5-408F-AD42-D1E7883544E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{F1AF274C-AFD8-490F-AE59-4BEFB39E8307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.GeometricShapes", "Composite.GeometricShapes\Composite.GeometricShapes.csproj", "{696C9DD8-F4FB-4F8E-B020-3B38B068157D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +143,10 @@ Global
 		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +175,8 @@ Global
 		{B18C36FA-7943-436B-B661-087C66F5CBB1} = {9421AAE2-041E-4AD5-B233-1AA8B4832A0E}
 		{FD3487E7-0ABA-4264-A452-541BA53E4D3B} = {B18C36FA-7943-436B-B661-087C66F5CBB1}
 		{B2195113-4CB5-408F-AD42-D1E7883544E2} = {B18C36FA-7943-436B-B661-087C66F5CBB1}
+		{F1AF274C-AFD8-490F-AE59-4BEFB39E8307} = {9421AAE2-041E-4AD5-B233-1AA8B4832A0E}
+		{696C9DD8-F4FB-4F8E-B020-3B38B068157D} = {F1AF274C-AFD8-490F-AE59-4BEFB39E8307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBA529D4-85C4-4E60-9C60-4977E27702EA}
