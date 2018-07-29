@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter.cs" />
+    <Compile Include="Bridge.cs" />
     <Compile Include="Bulder.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,6 +62,10 @@
     <ProjectReference Include="..\Adapter.Coding.Execise\Adapter.Coding.Execise.csproj">
       <Project>{29593533-482d-411f-a0a9-2f8799c6fb40}</Project>
       <Name>Adapter.Coding.Execise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bridge.Coding.Exercise\Bridge.Coding.Exercise.csproj">
+      <Project>{b2195113-4cb5-408f-ad42-d1e7883544e2}</Project>
+      <Name>Bridge.Coding.Exercise</Name>
     </ProjectReference>
     <ProjectReference Include="..\Builder.Coding.Exercise\Builder.Coding.Exercise.csproj">
       <Project>{504cce77-0c63-4dba-8cbb-d7f450244e2e}</Project>

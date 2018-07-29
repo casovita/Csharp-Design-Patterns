@@ -55,6 +55,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{B18C36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{FD3487E7-0ABA-4264-A452-541BA53E4D3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Coding.Exercise", "Bridge.Coding.Exercise\Bridge.Coding.Exercise.csproj", "{B2195113-4CB5-408F-AD42-D1E7883544E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{FD3487E7-0ABA-4264-A452-541BA53E4D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3487E7-0ABA-4264-A452-541BA53E4D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3487E7-0ABA-4264-A452-541BA53E4D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2195113-4CB5-408F-AD42-D1E7883544E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{29593533-482D-411F-A0A9-2F8799C6FB40} = {0D1EE9DF-920F-4540-8FEF-7148CF4A6F40}
 		{B18C36FA-7943-436B-B661-087C66F5CBB1} = {9421AAE2-041E-4AD5-B233-1AA8B4832A0E}
 		{FD3487E7-0ABA-4264-A452-541BA53E4D3B} = {B18C36FA-7943-436B-B661-087C66F5CBB1}
+		{B2195113-4CB5-408F-AD42-D1E7883544E2} = {B18C36FA-7943-436B-B661-087C66F5CBB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBA529D4-85C4-4E60-9C60-4977E27702EA}
