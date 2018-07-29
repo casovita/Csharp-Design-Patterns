@@ -61,6 +61,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.GeometricShapes", "Composite.GeometricShapes\Composite.GeometricShapes.csproj", "{696C9DD8-F4FB-4F8E-B020-3B38B068157D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.NeuralNetworks", "Composite.NeuralNetworks\Composite.NeuralNetworks.csproj", "{1E7ACFE4-C938-428E-A779-50B73980DB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Coding.Exercise", "Composite.Coding.Exercise\Composite.Coding.Exercise.csproj", "{1F7BD480-6120-478B-B62A-F04E9D02E638}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{696C9DD8-F4FB-4F8E-B020-3B38B068157D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7ACFE4-C938-428E-A779-50B73980DB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7ACFE4-C938-428E-A779-50B73980DB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7ACFE4-C938-428E-A779-50B73980DB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7ACFE4-C938-428E-A779-50B73980DB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7BD480-6120-478B-B62A-F04E9D02E638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7BD480-6120-478B-B62A-F04E9D02E638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7BD480-6120-478B-B62A-F04E9D02E638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7BD480-6120-478B-B62A-F04E9D02E638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +189,8 @@ Global
 		{B2195113-4CB5-408F-AD42-D1E7883544E2} = {B18C36FA-7943-436B-B661-087C66F5CBB1}
 		{F1AF274C-AFD8-490F-AE59-4BEFB39E8307} = {9421AAE2-041E-4AD5-B233-1AA8B4832A0E}
 		{696C9DD8-F4FB-4F8E-B020-3B38B068157D} = {F1AF274C-AFD8-490F-AE59-4BEFB39E8307}
+		{1E7ACFE4-C938-428E-A779-50B73980DB63} = {F1AF274C-AFD8-490F-AE59-4BEFB39E8307}
+		{1F7BD480-6120-478B-B62A-F04E9D02E638} = {F1AF274C-AFD8-490F-AE59-4BEFB39E8307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBA529D4-85C4-4E60-9C60-4977E27702EA}

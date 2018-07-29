@@ -51,6 +51,7 @@
     <Compile Include="Adapter.cs" />
     <Compile Include="Bridge.cs" />
     <Compile Include="Bulder.cs" />
+    <Compile Include="Composite.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
@@ -70,6 +71,10 @@
     <ProjectReference Include="..\Builder.Coding.Exercise\Builder.Coding.Exercise.csproj">
       <Project>{504cce77-0c63-4dba-8cbb-d7f450244e2e}</Project>
       <Name>Builder.Coding.Exercise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Composite.Coding.Exercise\Composite.Coding.Exercise.csproj">
+      <Project>{1f7bd480-6120-478b-b62a-f04e9d02e638}</Project>
+      <Name>Composite.Coding.Exercise</Name>
     </ProjectReference>
     <ProjectReference Include="..\Observer.Coding.Exercise\Observer.Coding.Exercise.csproj">
       <Project>{c887ce0c-24ff-4076-a2f6-dcc35131d387}</Project>
