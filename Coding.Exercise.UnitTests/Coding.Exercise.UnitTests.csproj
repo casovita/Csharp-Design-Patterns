@@ -52,6 +52,7 @@
     <Compile Include="Bridge.cs" />
     <Compile Include="Bulder.cs" />
     <Compile Include="Composite.cs" />
+    <Compile Include="Decorator.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
@@ -75,6 +76,10 @@
     <ProjectReference Include="..\Composite.Coding.Exercise\Composite.Coding.Exercise.csproj">
       <Project>{1f7bd480-6120-478b-b62a-f04e9d02e638}</Project>
       <Name>Composite.Coding.Exercise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Decorator.Coding.Exercise\Decorator.Coding.Exercise.csproj">
+      <Project>{6f491af8-28b0-4776-903f-e3f954b74371}</Project>
+      <Name>Decorator.Coding.Exercise</Name>
     </ProjectReference>
     <ProjectReference Include="..\Observer.Coding.Exercise\Observer.Coding.Exercise.csproj">
       <Project>{c887ce0c-24ff-4076-a2f6-dcc35131d387}</Project>
