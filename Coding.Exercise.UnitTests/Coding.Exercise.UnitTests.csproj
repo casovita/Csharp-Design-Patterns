@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.10.1\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" />
   <Import Project="..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -44,6 +45,9 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.2.1\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -53,6 +57,7 @@
     <Compile Include="Bulder.cs" />
     <Compile Include="Composite.cs" />
     <Compile Include="Decorator.cs" />
+    <Compile Include="Flyweight.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
@@ -81,6 +86,10 @@
       <Project>{6f491af8-28b0-4776-903f-e3f954b74371}</Project>
       <Name>Decorator.Coding.Exercise</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Flyweight.Coding.Exercise\Flyweight.Coding.Exercise.csproj">
+      <Project>{77e457b9-4d8c-4b56-af49-6a82b17745ea}</Project>
+      <Name>Flyweight.Coding.Exercise</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Observer.Coding.Exercise\Observer.Coding.Exercise.csproj">
       <Project>{c887ce0c-24ff-4076-a2f6-dcc35131d387}</Project>
       <Name>Observer.Coding.Exercise</Name>
@@ -98,6 +107,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.props'))" />
     <Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.10.1\build\NUnit.props'))" />
   </Target>
   <Import Project="..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.1.2.1\build\net45\MSTest.TestAdapter.targets')" />
 </Project>
