@@ -61,6 +61,7 @@
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
+    <Compile Include="Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -97,6 +98,10 @@
     <ProjectReference Include="..\Prototype.Coding.Execise\Prototype.Coding.Execise.csproj">
       <Project>{01e0a68b-f100-4212-838c-3eee039dab21}</Project>
       <Name>Prototype.Coding.Execise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Proxy.Coding.Exercise\Proxy.Coding.Exercise.csproj">
+      <Project>{73beda54-2a22-4fb9-b2e5-ba2ed7d742d8}</Project>
+      <Name>Proxy.Coding.Exercise</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
