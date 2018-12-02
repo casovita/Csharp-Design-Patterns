@@ -53,3 +53,14 @@ Uses: want an object that represents operation, GUI commands, multi-level undo/r
 
 ###### 1. Adapter.
 - A construct which adapts an existing interface X to conform to the required interface Y.
+
+###### 2. Bridge.
+- A mechanism that decuples an interface (heirarchy) from an implementation (heirarchy).
+
+###### 3. Composite.
+- Object use other object through inheritance and composition
+- Composition let us make compound objects
+	- E.g, a mathematical expression composed of simple expressions; or
+	- A rouping of shapes that consists of several shapes
+- Compositedesign pattern is used to tread both single (scalar) and composite objects uniformly
+	- I.e.' Foo and Collection of Foo have common APIs
