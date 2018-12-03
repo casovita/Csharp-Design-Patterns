@@ -64,3 +64,18 @@ Uses: want an object that represents operation, GUI commands, multi-level undo/r
 	- A rouping of shapes that consists of several shapes
 - Compositedesign pattern is used to tread both single (scalar) and composite objects uniformly
 	- I.e.' Foo and Collection of Foo have common APIs
+
+###### 4. Decorator.
+*(Facilitates the addition of behaviors to individual objects without inheriting from them.)*
+- Want to augment an object with additional functionality
+- Do not want to rewrite or alter existing code (OCP)
+- Want to keep new functionality separate (SRP)
+- Need to be able to interact with existing structures
+- Two options:
+	- Inherit from required object if possible; some objects are sealed
+	- Build a Decorator, witch simply references the decorated object(s)
+
+###### 5. Proxy.
+*A class that functions as an interface to a particular resource. That resurce may be remote, expensive to constract, or may require logging or some other added functionality.*
+- Proxy to resource - same interface, entirely behavior
+- Communication Proxy - logging, virtual, guarding
