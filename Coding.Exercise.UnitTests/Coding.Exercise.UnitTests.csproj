@@ -59,6 +59,7 @@
     <Compile Include="Composite.cs" />
     <Compile Include="Decorator.cs" />
     <Compile Include="Flyweight.cs" />
+    <Compile Include="NullObject.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype.cs" />
@@ -95,6 +96,10 @@
     <ProjectReference Include="..\Flyweight.Coding.Exercise\Flyweight.Coding.Exercise.csproj">
       <Project>{77e457b9-4d8c-4b56-af49-6a82b17745ea}</Project>
       <Name>Flyweight.Coding.Exercise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NullObject.Coding.Excercise\NullObject.Coding.Excercise.csproj">
+      <Project>{464197c3-d6e5-41fa-9119-117150060cd0}</Project>
+      <Name>NullObject.Coding.Excercise</Name>
     </ProjectReference>
     <ProjectReference Include="..\Observer.Coding.Exercise\Observer.Coding.Exercise.csproj">
       <Project>{c887ce0c-24ff-4076-a2f6-dcc35131d387}</Project>
