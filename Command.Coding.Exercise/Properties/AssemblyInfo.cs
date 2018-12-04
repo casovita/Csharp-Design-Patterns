@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ChainOfResponsobility.BrokenChain")]
+[assembly: AssemblyTitle("Command.Coding.Exercise")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ChainOfResponsobility.BrokenChain")]
+[assembly: AssemblyProduct("Command.Coding.Exercise")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("C5BF49B0-B94C-4C7F-BE6C-941F98F19493")]
+[assembly: Guid("DD26FD3C-C957-464E-9C69-E999C9C8412A")]
 
 // Version information for an assembly consists of the following four values:
 //

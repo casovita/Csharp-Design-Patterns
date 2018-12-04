@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "NullObject\Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject.Coding.Excercise", "NullObject.Coding.Excercise\NullObject.Coding.Excercise.csproj", "{464197C3-D6E5-41FA-9119-117150060CD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Coding.Exercise", "Command.Coding.Exercise\Command.Coding.Exercise.csproj", "{DD26FD3C-C957-464E-9C69-E999C9C8412A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -281,6 +283,10 @@ Global
 		{464197C3-D6E5-41FA-9119-117150060CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464197C3-D6E5-41FA-9119-117150060CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464197C3-D6E5-41FA-9119-117150060CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD26FD3C-C957-464E-9C69-E999C9C8412A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD26FD3C-C957-464E-9C69-E999C9C8412A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD26FD3C-C957-464E-9C69-E999C9C8412A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD26FD3C-C957-464E-9C69-E999C9C8412A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -338,6 +344,7 @@ Global
 		{50B181A8-228B-4584-A304-EF409D9A48F2} = {89C2F5BE-D2E8-44BA-8701-D1FBD40CA557}
 		{0CD246D3-605C-4716-8F91-1C6539E50E41} = {50B181A8-228B-4584-A304-EF409D9A48F2}
 		{464197C3-D6E5-41FA-9119-117150060CD0} = {50B181A8-228B-4584-A304-EF409D9A48F2}
+		{DD26FD3C-C957-464E-9C69-E999C9C8412A} = {AAFF6D44-AC60-4486-912C-BF493EEB20A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBA529D4-85C4-4E60-9C60-4977E27702EA}

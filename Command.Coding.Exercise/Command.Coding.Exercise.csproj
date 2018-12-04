@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{C5BF49B0-B94C-4C7F-BE6C-941F98F19493}</ProjectGuid>
+        <ProjectGuid>{DD26FD3C-C957-464E-9C69-E999C9C8412A}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ChainOfResponsobility.BrokenChain</RootNamespace>
-        <AssemblyName>ChainOfResponsobility.BrokenChain</AssemblyName>
+        <RootNamespace>Command.Coding.Exercise</RootNamespace>
+        <AssemblyName>Command.Coding.Exercise</AssemblyName>
         <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Command
 {
@@ -14,13 +15,16 @@ namespace Command
             Console.WriteLine($"Deposited ${amount}, balance is now {balance}");
         }
 
-        public void Withdraw(int amount)
+        public bool Withdraw(int amount)
         {
             if (balance - amount >= this.overdraftLimit)
             {
                 balance -= amount;
                 Console.WriteLine($"Withdrew {amount}, balance is now {balance}");
+                return true;
             }
+
+            return false;
         }
 
         public override string ToString()
@@ -32,11 +36,12 @@ namespace Command
     public interface ICommand
     {
         void Call();
+        void Undo();
     }
 
     public class BankAccounCommand : ICommand
     {
-        private BankAccount account;
+        private BankAccount _account;
 
         public enum Action
         {
@@ -44,25 +49,44 @@ namespace Command
             Withdraw
         }
 
-        private Action action;
-        private int amount;
-
+        private Action _action;
+        private int _amount;
+        private bool _succeeded;
+        
         public BankAccounCommand(BankAccount account, Action action, int amount)
         {
-            this.account = account ?? throw new ArgumentException(nameof(account));
-            this.action = action;
-            this.amount = amount;
+            this._account = account ?? throw new ArgumentException(nameof(account));
+            this._action = action;
+            this._amount = amount;
         }
 
         public void Call()
         {
-            switch (action)
+            switch (_action)
             {
                 case Action.Deposit:
-                    account.Deposit(amount);
+                    _account.Deposit(_amount);
+                    _succeeded = true;
                     break;
                 case Action.Withdraw:
-                    account.Withdraw(amount);
+                    _succeeded = _account.Withdraw(_amount);
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+
+        public void Undo()
+        {
+            if(!_succeeded)return;
+            
+            switch (_action)
+            {
+                case Action.Deposit:
+                    _account.Withdraw(_amount);
+                    break;
+                case Action.Withdraw:
+                    _account.Deposit(_amount);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -85,6 +109,13 @@ namespace Command
             foreach (var command in commands)
             {
                 command.Call();
+            }
+
+            Console.WriteLine(ba);
+
+            foreach (var command in Enumerable.Reverse(commands))
+            {
+                command.Undo();
             }
 
             Console.WriteLine(ba);

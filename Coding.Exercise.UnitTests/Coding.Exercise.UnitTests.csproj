@@ -56,6 +56,7 @@
     <Compile Include="Bridge.cs" />
     <Compile Include="Bulder.cs" />
     <Compile Include="ChainOfResponsibility.cs" />
+    <Compile Include="Command.cs" />
     <Compile Include="Composite.cs" />
     <Compile Include="Decorator.cs" />
     <Compile Include="Flyweight.cs" />
@@ -84,6 +85,10 @@
     <ProjectReference Include="..\ChainOfResponsibility.Coding.Exercise\ChainOfResponsibility.Coding.Exercise.csproj">
       <Project>{902ad44c-1bad-4a82-8c1b-511d7bceafc8}</Project>
       <Name>ChainOfResponsibility.Coding.Exercise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Command.Coding.Exercise\Command.Coding.Exercise.csproj">
+      <Project>{dd26fd3c-c957-464e-9c69-e999c9c8412a}</Project>
+      <Name>Command.Coding.Exercise</Name>
     </ProjectReference>
     <ProjectReference Include="..\Composite.Coding.Exercise\Composite.Coding.Exercise.csproj">
       <Project>{1f7bd480-6120-478b-b62a-f04e9d02e638}</Project>
