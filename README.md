@@ -1,5 +1,7 @@
  # Csharp Design Patterns motivation to use.
  
+------------
+
 >  #### Creational:
 
 
