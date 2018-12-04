@@ -6,7 +6,7 @@
 ------------
 
 
-####1. BUILDER.
+#### 1. BUILDER.
 - When piecewise object construction is complicated provide an API for doing it succinctly.
 
 #### 2. FACTORIES.
