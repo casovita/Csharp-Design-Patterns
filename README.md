@@ -50,8 +50,16 @@ Uses: want an object that represents operation, GUI commands, multi-level undo/r
 	- Some external event occurs.
 - We want to listen to events and notified when they occur.
 - Build into C# with the *event*  keyword.
-	- But then what is this IObservable of T / IObserver of T for?
+	- But then what is this `IObservable<T>` / `IObserver<T>` for?
 
+#### 3. NULL OBJECT.
+*A no-op object that conforms to the required interface, satisfying a dependency requirement of some other object.*
+- When component `A` uses component `B`, it typically assumes that `B` is non-null.
+	- You inject `B`, not `B`? or some `Option<B>`.
+	-  You do not check for null (?.) on every call.
+- There is no option of telling `A` not to use an instance of `B`.
+	- Its use is hard coded
+- Thus, we build a no-op, non-functioning inheritor of B and pass it into `A`.
 
 ------------
 
