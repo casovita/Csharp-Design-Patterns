@@ -44,7 +44,19 @@ Object removal from the chain. (e.g., in Dispose())
 An object which represents an instruction to perform a particular action. Contains all the information necessary for the action to be taken.
 Uses: want an object that represents operation, GUI commands, multi-level undo/redo, macro recording and more.
 
-#### 2. OBSERVER.
+#### 2. INTERPRETER.
+A component that processes structured text data. Does so turning it into separate lexical token (lexing) and then interpreting sequences of said tokens (parsing).
+
+#### 3. ITERATOR.
+*An object (or, in .NET, a method) that facilitates the traversal of a data structure.*
+ - Iteration (traversal) is a core functionality of various data structures
+ - An *iterator* is a class that facilitates the traversal
+   - Keeps a reference to the current element
+   - Knows how to move to a different element
+ - Iterator is an implicit constract
+   - .NET builds a state machine around your *yield return* statements
+
+#### 4. OBSERVER.
 *An observer is an object that wishes to be informed about events happening in the system. The entity generating the events is an observable.*
 - We need to be informed when certain things happens.
 	- Object's property changes.
@@ -54,7 +66,7 @@ Uses: want an object that represents operation, GUI commands, multi-level undo/r
 - Build into C# with the *event*  keyword.
 	- But then what is this `IObservable<T>` / `IObserver<T>` for?
 
-#### 3. NULL OBJECT.
+#### 5. NULL OBJECT.
 *A no-op object that conforms to the required interface, satisfying a dependency requirement of some other object.*
 - When component `A` uses component `B`, it typically assumes that `B` is non-null.
 	- You inject `B`, not `B`? or some `Option<B>`.
