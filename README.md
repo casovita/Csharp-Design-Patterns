@@ -41,11 +41,11 @@ Enlist objects in the chain, possibly controlling their order.
 Object removal from the chain. (e.g., in Dispose())
 
 #### 2. COMMAND.
-An object which represents an instruction to perform a particular action. Contains all the information necessary for the action to be taken.
+*An object which represents an instruction to perform a particular action. Contains all the information necessary for the action to be taken.*
 Uses: want an object that represents operation, GUI commands, multi-level undo/redo, macro recording and more.
 
 #### 2. INTERPRETER.
-A component that processes structured text data. Does so turning it into separate lexical token (lexing) and then interpreting sequences of said tokens (parsing).
+*A component that processes structured text data. Does so turning it into separate lexical token (lexing) and then interpreting sequences of said tokens (parsing).*
 
 #### 3. ITERATOR.
 *An object (or, in .NET, a method) that facilitates the traversal of a data structure.*
